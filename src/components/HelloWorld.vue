@@ -9,7 +9,7 @@ defineProps({
 
 <template>
   <div class="greetings">
-    <h1 class="green">MS Studio<br>Michał Stepanko</h1>
+    <h1 class="green boldLink">MS Studio<br>Projektowanie i Zabudowa</h1>
     <h3>
       Przepraszamy, ale strona znajduje się jeszcze w budowie.  
     </h3>
@@ -26,7 +26,7 @@ defineProps({
 <style scoped>
 h1 {
   font-weight: 500;
-  font-size: 2.6rem;
+  font-size: 1.8rem;
   position: relative;
   top: -10px;
 }
