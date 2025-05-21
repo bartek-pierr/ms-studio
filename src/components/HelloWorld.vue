@@ -9,11 +9,16 @@ defineProps({
 
 <template>
   <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
+    <h1 class="green">MS Studio<br>Michał Stepanko</h1>
     <h3>
-      You’ve successfully created a project with
-      <a href="https://vite.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
+      Przepraszamy, ale strona znajduje się jeszcze w budowie.  
+    </h3>
+    <br>
+    <h3>
+      Kontakt telefoniczny - <a href="tel:691 806 875" class="boldLink">691 806 875</a>
+    </h3>
+    <h3>
+      Kontakt mailowy - <a href=mailto:“kontakt@ms-studio.pl” class="boldLink">kontakt@ms-studio.pl</a>
     </h3>
   </div>
 </template>
@@ -33,6 +38,10 @@ h3 {
 .greetings h1,
 .greetings h3 {
   text-align: center;
+}
+
+.boldLink {
+  font-weight: 700;
 }
 
 @media (min-width: 1024px) {
