@@ -10,12 +10,19 @@ const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
 </script>
 
 <template>
+<WelcomeItem>
+    <template #icon>
+      <CommunityIcon />
+    </template>
+    <template #heading>Świadczymy kompleksowe usługi pomiaru i projektowania zabudowy meblowej oraz aranżacji przestrzeni.</template>
+  </WelcomeItem>
+
   <WelcomeItem>
     <template #icon>
       <DocumentationIcon />
     </template>
-    <template #heading>Oszczędzamy Twój czas tworząc zabudowania meblowe
-na miarę Twoich potrzeb i możliwości.</template>
+    <template #heading>Współpracujemy ze sprawdzonymi i doświadczonymi w branży
+wykonawcami.</template>
   </WelcomeItem>
 
   <WelcomeItem>
@@ -24,6 +31,13 @@ na miarę Twoich potrzeb i możliwości.</template>
     </template>
     <template #heading>Przygotowujemy wysokiej jakości wizualizacje i projekty
 z wykorzystaniem programu CAD.</template>
+  </WelcomeItem>
+
+  <WelcomeItem>
+    <template #icon>
+      <DocumentationIcon />
+    </template>
+    <template #heading><span class="paragraphBold">Projekty zabudowy dostępne również w wersji VR.</span></template>
   </WelcomeItem>
 
   <WelcomeItem>
@@ -47,13 +61,5 @@ stylu, wykorzystywanych materiałów, kolorystyki.</template>
       <SupportIcon />
     </template>
     <template #heading>Korzystamy ze sprawdzonych materiałów i akcesoriów.</template>
-  </WelcomeItem>
-
-  <WelcomeItem>
-    <template #icon>
-      <ToolingIcon />
-    </template>
-    <template #heading>Współpracujemy ze sprawdzonymi, doświadczonymi w branży
-wykonawcami.</template>
   </WelcomeItem>
 </template>
