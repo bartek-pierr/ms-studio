@@ -10,10 +10,13 @@ import HelloWorld from './components/HelloWorld.vue'
     <div class="wrapper">
       <HelloWorld />
 
-      <!-- <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav> -->
+      <nav>
+        <RouterLink to="/">Start</RouterLink>
+        <RouterLink to="/klient-indywidualny">Klient Indywidualny</RouterLink>
+        <RouterLink to="/oferta-dla-firm">Oferta Dla Firm</RouterLink>
+        <RouterLink to="/o-firmie">O Firmie</RouterLink>
+        <RouterLink to="/kontakt">Kontakt</RouterLink>
+      </nav>
     </div>
   </header>
 

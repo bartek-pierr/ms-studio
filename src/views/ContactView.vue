@@ -1,12 +1,12 @@
 <template>
-  <div class="about">
-    <h1>Strona - O Firmie</h1>
+  <div class="contact">
+    <h1>Strona - Kontakt</h1>
   </div>
 </template>
 
 <style>
 @media (min-width: 1024px) {
-  .about {
+  .contact {
     min-height: 100vh;
     display: flex;
     align-items: center;
