@@ -1,12 +1,12 @@
 <template>
-  <div class="about">
-    <h1>Strona - MS Studio</h1>
+  <div class="gallery">
+    <h1>Strona - Galeria</h1>
   </div>
 </template>
 
 <style>
 @media (min-width: 1024px) {
-  .about {
+  .gallery {
     min-height: 100vh;
     display: flex;
     align-items: center;

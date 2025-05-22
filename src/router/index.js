@@ -10,22 +10,27 @@ const router = createRouter({
       component: HomeView,
     },
     {
-      path: '/klient-indywidualny',
-      name: 'klient-indywidualny',
+      path: '/ms-studio',
+      name: 'ms-studio',
+      component: () => import('../views/AboutView.vue'),
+    },
+    {
+      path: '/oferta',
+      name: 'oferta',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/ClientIndividualView.vue'),
+      component: () => import('../views/OfferView.vue'),
     },
     {
-      path: '/oferta-dla-firm',
-      name: 'oferta-dla-firm',
+      path: '/dla-firm',
+      name: 'dla-firm',
       component: () => import('../views/OfferCompaniesView.vue'),
     },
     {
-      path: '/o-firmie',
-      name: 'o-firmie',
-      component: () => import('../views/AboutView.vue'),
+      path: '/galeria',
+      name: 'galeria',
+      component: () => import('../views/GalleryView.vue'),
     },
     {
       path: '/kontakt',
