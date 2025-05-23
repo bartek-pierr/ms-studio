@@ -41,7 +41,7 @@ import TopHeader from './components/TopHeader.vue'
 .landingPage__routerView {
   width: 100%;
   height: 76vh;
-  padding: 16px;
+  padding: 32px 64px;
 }
 
 .landingPage__footer {
