@@ -1,72 +1,61 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import TopHeader from './components/TopHeader.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+  <div class="landingPage">
+    <header class="landingPage__header">
+    <TopHeader />
+    </header>
 
-    <div class="wrapper">
-      <HelloWorld />
-
-      <nav>
-        <RouterLink to="/">Start</RouterLink>
-        <RouterLink to="/ms-studio">MS Studio</RouterLink>
-        <RouterLink to="/klient-indywidualny">Oferta</RouterLink>
-        <RouterLink to="/dla-firm">Dla Firm</RouterLink>
-        <RouterLink to="/galeria">Galeria</RouterLink>
-        <RouterLink to="/kontakt">Kontakt</RouterLink>
-      </nav>
+    <div class="landingPage__routerView">
+      <RouterView />
     </div>
-  </header>
 
-  <RouterView />
+    <footer class="landingPage__footer">
+      <p>© 2023 MS Studio</p>
+    </footer>
+  </div>
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
-  max-height: 100vh;
+.landingPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-nav {
+.landingPage__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  font-size: 12px;
-  text-align: center;
-  margin-top: 2rem;
+  height: 10vh;
+  background-color: lightgray;
 }
 
-nav a.router-link-exact-active {
-  color: var(--color-text);
+.landingPage__routerView {
+  width: 100%;
+  height: 70vh;
 }
 
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
+.landingPage__footer {
+  width: 100%;
+  height: 20vh;
+  background-color: skyblue;
 }
 
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
-}
-
-nav a:first-of-type {
-  border: 0;
-}
-
-@media (min-width: 390px) {
+/* @media (min-width: 390px) {
 .wrapper {
   margin-bottom: 40px;
 }
-}
+} */
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   header {
     display: flex;
     place-items: center;
@@ -91,5 +80,5 @@ nav a:first-of-type {
     padding: 1rem 0;
     margin-top: 1rem;
   }
-}
+} */
 </style>

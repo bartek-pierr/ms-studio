@@ -37,6 +37,11 @@ const router = createRouter({
       name: 'kontakt',
       component: () => import('../views/ContactView.vue'),
     },
+    {
+      path: '/sound-delivery',
+      name: 'sound-delivery',
+      component: () => import('../views/SoundDeliveryView.vue'),
+    },
   ],
 })
 

@@ -26,7 +26,7 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 .offerCompanies__section {
   margin: 10px 0;
   display: flex;

@@ -31,7 +31,7 @@
   --color-border-hover: var(--vt-c-divider-light-1);
 
   --color-heading: var(--vt-c-text-light-1);
-  --color-text: var(--vt-c-text-light-1);
+  --color-text: #232629;
 
   --section-gap: 160px;
 }
@@ -72,6 +72,7 @@ body {
     BlinkMacSystemFont,
     'Segoe UI',
     Roboto,
+    Montserrat,
     Oxygen,
     Ubuntu,
     Cantarell,
