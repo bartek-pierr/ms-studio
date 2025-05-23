@@ -95,6 +95,11 @@ nav a {
   display: inline-block;
   padding: 0 1rem;
   border-left: 1px solid rgb(180, 180, 180);
+  transition: 0.4s;
+  padding: 4px;
+  text-decoration: none;
+  color: #376877;
+  text-wrap: nowrap;
 }
 
 nav a:first-of-type {
