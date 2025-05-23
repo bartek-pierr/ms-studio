@@ -35,7 +35,7 @@ import TopHeader from './components/TopHeader.vue'
 
 .landingPage__image {
   width: 100%;
-  height: 32vh;
+  height: 56vh;
 }
 
 .bgHeader {
