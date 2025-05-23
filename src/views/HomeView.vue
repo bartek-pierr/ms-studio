@@ -10,50 +10,52 @@ const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
 
 <template>
   <div class="home">
+    <h1 class="headerMain">Dlaczego MS Studio?</h1>
+
     <div class="home-item">
-      <CommunityIcon />
+      <CommunityIcon fill="#376877" />
       <div class="home-heading">
         Świadczymy kompleksowe usługi pomiaru i projektowania zabudowy meblowej oraz aranżacji przestrzeni.
       </div>
     </div>
 
     <div class="home-item">
-      <DocumentationIcon />
+      <DocumentationIcon fill="#376877" />
       <div class="home-heading">
         Współpracujemy ze sprawdzonymi i doświadczonymi w branży wykonawcami.
       </div>
     </div>
 
     <div class="home-item">
-      <ToolingIcon />
+      <ToolingIcon fill="#376877" />
       <div class="home-heading">
         Przygotowujemy wysokiej jakości wizualizacje i projekty z wykorzystaniem programu CAD.
       </div>
     </div>
 
     <div class="home-item">
-      <DocumentationIcon />
+      <DocumentationIcon fill="#376877" />
       <div class="home-heading">
         <span class="paragraphBold">Projekty zabudowy dostępne również w wersji VR.</span>
       </div>
     </div>
 
     <div class="home-item">
-      <EcosystemIcon />
+      <EcosystemIcon fill="#376877" />
       <div class="home-heading">
         Uwzględniamy tradycyjne wzornictwo lub sięgamy po najnowsze trendy i rozwiązania w branży meblowej.
       </div>
     </div>
 
     <div class="home-item">
-      <CommunityIcon />
+      <CommunityIcon fill="#376877" />
       <div class="home-heading">
         Uwzględniamy Twoje indywidualne upodobania z uwzględnieniem stylu, wykorzystywanych materiałów, kolorystyki.
       </div>
     </div>
 
     <div class="home-item">
-      <SupportIcon />
+      <SupportIcon fill="#376877" />
       <div class="home-heading">
         Korzystamy ze sprawdzonych materiałów i akcesoriów.
       </div>

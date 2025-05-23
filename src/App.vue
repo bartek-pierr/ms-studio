@@ -34,19 +34,20 @@ import TopHeader from './components/TopHeader.vue'
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 10vh;
-  background-color: lightgray;
+  height: 8vh;
+  background-color: rgb(236, 236, 236);
 }
 
 .landingPage__routerView {
   width: 100%;
-  height: 70vh;
+  height: 76vh;
+  padding: 16px;
 }
 
 .landingPage__footer {
   width: 100%;
-  height: 20vh;
-  background-color: skyblue;
+  height: 16vh;
+  background-color: rgb(236, 236, 236);
 }
 
 /* @media (min-width: 390px) {
