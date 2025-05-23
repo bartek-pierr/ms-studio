@@ -24,7 +24,7 @@ defineProps({
 }
 
 h1 {
-  color: black;
+  color: white;
   font-weight: 700;
   font-size: 1rem;
   text-align: left;

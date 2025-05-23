@@ -17,9 +17,9 @@ import TopHeader from './components/TopHeader.vue'
       <RouterView />
     </div>
 
-    <footer class="landingPage__footer">
+    <!-- <footer class="landingPage__footer">
       <p>© 2023 MS Studio</p>
-    </footer>
+    </footer> -->
   </div>
 </template>
 
@@ -53,7 +53,7 @@ import TopHeader from './components/TopHeader.vue'
   align-items: center;
   width: 100%;
   height: 12vh;
-  background-color: rgb(236, 236, 236);
+  background-color: #376877;
 }
 
 .landingPage__routerView {

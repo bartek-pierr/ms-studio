@@ -91,7 +91,7 @@ nav {
 }
 
 nav a.router-link-exact-active {
-  color: var(--color-text);
+  color: white;
 }
 
 nav a.router-link-exact-active:hover {
@@ -104,7 +104,8 @@ nav a {
   border-left: 1px solid rgb(180, 180, 180);
   transition: 0.4s;
   text-decoration: none;
-  color: #376877;
+  color: whitesmoke;
   text-wrap: nowrap;
+  font-weight: 400;
 }
 </style>

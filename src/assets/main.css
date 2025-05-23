@@ -33,12 +33,41 @@
 
 .warrningBox {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: start;
   align-items: center;
   width: 100%;
-  height: 14vh;
+  height: fit-content;
   background-color:rgba(255, 166, 0, 0.185);
-  padding: 12px;
+  padding: 24px;
+}
+
+.warrningBox__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.warrningBox__contact {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  gap: 48px;
+}
+
+.warrningBox__contact p {
+  font-weight: 600;
+}
+
+.warrningBox__contact p a {
+  text-decoration: none;
+  color: #376877;
+  transition: 0.4s;
+}
+
+.warrningBox__contact p a span {
+  font-weight: 700;
+  color: rgb(238, 161, 18);
 }
 
 .warrningParagraph {
@@ -53,7 +82,7 @@
   justify-content: center;
   align-items: center;
   width: auto;
-  height: 100%;
+  height: 40%;
   margin-right: 12px;
 }
 
