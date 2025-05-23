@@ -5,6 +5,10 @@ import TopHeader from './components/TopHeader.vue'
 
 <template>
   <div class="landingPage">
+    <div class="landingPage__image">
+      <img src="../public/bgHeader.jpg" class="bgHeader" alt="rysunek zabudowy kuchennej">
+    </div>
+
     <header class="landingPage__header">
     <TopHeader />
     </header>
@@ -23,25 +27,39 @@ import TopHeader from './components/TopHeader.vue'
 .landingPage {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   min-height: 100vh;
   min-width: 100vw;
 }
 
+.landingPage__image {
+  width: 100%;
+  height: 32vh;
+}
+
+.bgHeader {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
 .landingPage__header {
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 8vh;
+  height: 12vh;
   background-color: rgb(236, 236, 236);
 }
 
 .landingPage__routerView {
-  width: 100%;
-  height: 76vh;
-  padding: 32px 64px;
+  width: 100vw;
+  height: 100%;
+  padding: 16px 32px;
 }
 
 .landingPage__footer {

@@ -12,7 +12,9 @@ defineProps({
     <div class="topHeader">
         <div class="topHeader__left">
             <div class="topHeader__logo">
-                <img alt="MS Studio logo" class="logo" src="@/assets/logo.svg" />
+                <a href="/" class="topHeader__logo">
+                    <img alt="MS Studio logo" class="logo" src="@/assets/logo.svg" />
+                </a>
             </div>
 
             <div class="topHeader__text">
@@ -22,13 +24,13 @@ defineProps({
 
         <div class="topHeader__navigation">
             <nav>
-                <RouterLink to="/">Start</RouterLink>
-                <RouterLink to="/ms-studio">MS Studio</RouterLink>
-                <RouterLink to="/oferta">Oferta</RouterLink>
-                <RouterLink to="/dla-firm">Dla Firm</RouterLink>
-                <RouterLink to="/galeria">Galeria</RouterLink>
-                <RouterLink to="/kontakt">Kontakt</RouterLink>
-                <RouterLink to="/sound-delivery">Sound Delivery</RouterLink>
+                <RouterLink to="/" class="routerLink">Start</RouterLink>
+                <RouterLink to="/ms-studio" class="routerLink">MS Studio</RouterLink>
+                <RouterLink to="/oferta" class="routerLink">Oferta</RouterLink>
+                <RouterLink to="/dla-firm" class="routerLink">Dla Firm</RouterLink>
+                <RouterLink to="/galeria" class="routerLink">Galeria</RouterLink>
+                <RouterLink to="/kontakt" class="routerLink">Kontakt</RouterLink>
+                <RouterLink to="/sound-delivery" class="routerLink">Sound Delivery</RouterLink>
             </nav>
         </div>
     </div>
@@ -41,7 +43,6 @@ defineProps({
     align-items: center;
     width: 100%;
     height: 100%;
-    padding: 12px;
 }
 
 .topHeader__left {
@@ -59,10 +60,15 @@ defineProps({
     height: 100%;
     width: fit-content;
     margin-right: 20px;
+    padding: 8px 8px 8px 32px;
 }
 
 .logo {
     height: 100%;
+}
+
+a:hover {
+    background-color: transparent;
 }
 
 .topHeader__text {
@@ -73,6 +79,7 @@ defineProps({
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 32px;
 }
 
 nav {
@@ -93,16 +100,11 @@ nav a.router-link-exact-active:hover {
 
 nav a {
   display: inline-block;
-  padding: 0 1rem;
+  padding: 0 1.2rem 0 1.2rem;
   border-left: 1px solid rgb(180, 180, 180);
   transition: 0.4s;
-  padding: 4px;
   text-decoration: none;
   color: #376877;
   text-wrap: nowrap;
-}
-
-nav a:first-of-type {
-  border: 0;
 }
 </style>

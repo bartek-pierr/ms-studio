@@ -76,7 +76,6 @@ const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
 .home {
   display: flex;
   flex-direction: column;
-  align-items: start;
   justify-content: center;
   text-align: left;
   height: 100%;
@@ -94,5 +93,9 @@ const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
 
 .warrningBox {
   margin-bottom: 30px;
+}
+
+.home h1 {
+  margin-bottom: 12px;
 }
 </style>

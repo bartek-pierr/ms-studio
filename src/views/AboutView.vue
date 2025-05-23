@@ -1,6 +1,6 @@
 <template>
-  <h1 class="headerMain">Oferta dla klienta indywidualnego</h1>
   <div class="about">
+  <h1 class="headerMain">Oferta dla klienta indywidualnego</h1>
     <div class="about__item">
       <h2 class="headerSecond">
         OD POMYSŁU DO REALIZACJI
@@ -31,7 +31,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   height: 100%;
 }
 
