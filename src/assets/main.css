@@ -2,7 +2,6 @@
 
 #app {
   max-width: 100vw;
-  margin: 0 auto;
   font-weight: normal;
 }
 
@@ -13,10 +12,18 @@
   color: #376877;
 }
 
+.headerSecond {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #f8a436dc;
+
+}
+
 a,
 .colorSecondary {
   text-decoration: none;
-  color: #376877;
+  color: #f8a436;
   transition: 0.4s;
   padding: 3px;
 }
